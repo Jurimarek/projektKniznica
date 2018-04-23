@@ -13,7 +13,6 @@ class Autor extends CI_Controller {
         parent::__construct();
         $this->load->helper('form');
         $this->load->library('form_validation');
-        6
         $this->load->model('autor_model');
 }
 

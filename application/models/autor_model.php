@@ -9,6 +9,7 @@
 class autor_model extends CI_Model
 {
 
+
     function getRows($id = "")
     {
         if (!empty($id)) {
